@@ -4,6 +4,9 @@ from string import punctuation
 from nltk.stem.snowball import SnowballStemmer
 import streamlit as st
 #from nltk.stem import PorterStemmer
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
 
 class TextSummarizer:
      #ps = PorterStemmer()
